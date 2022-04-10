@@ -8,4 +8,4 @@ Está é uma página de conversão do dólar atual para o real.
 
 ## Deploy
 
-[dollarToReal](https://dollar-to-real.vercel.app/)
+- [dollarToReal](https://dollar-to-real.vercel.app/)
