@@ -1,5 +1,5 @@
 # dollarToReal
-Está é uma página de conversão do dólar atual para o real.
+Essa é uma página de conversão do dólar atual para o real.
 
 ## Tecnologias.
 - HTML
