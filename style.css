@@ -25,7 +25,7 @@
         text-shadow: 0.07rem 0.07rem green;
         margin-bottom: 2.5rem;
         letter-spacing: 0.25rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
 
     }
 
@@ -33,6 +33,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
 
     }
 
@@ -41,23 +42,24 @@
         border-radius: 0.5rem;
         margin: 0 1rem 0 0;
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
         text-align: right;
         outline: 0;
         background: #FFF;
         color: gray;
+        
 
     }
 
     #brlCurrency {
         color: grey;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #foreignCurrency {
         color: grey;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     footer {
@@ -68,23 +70,38 @@
         background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255));
     }
 
+
     @media (max-width: 940px) {
         html {
-            font-size: 87%;
+            font-size: 80%;
         }
 
     }
 
     @media (max-width: 768px) {
         html {
-            font-size: 69.5%;
+            font-size: 60%;
         }
 
     }
 
-    @media (max-width: 432px) {
-        html {
-            font-size: 55%;
+    @media (max-width: 480px) {
+
+        .inputs{
+            flex-direction: column;
+            align-items: center;
         }
-        
+       
+        .brlCurrency {
+            margin-top: 1rem;
+            padding-left: 1.322rem;
+        }
+
+        input {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+
+       
     }
